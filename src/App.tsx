@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import baseImage from "./assets/base.png";
 
 function App() {
   const [count, setCount] = useState(100)
@@ -14,8 +15,8 @@ function App() {
         <div className='form'>
           テスト
         </div>
-        <div className='preview'>
-          テスト２
+        <div className='preview'>      
+          <img width="800" height="450" src={baseImage}></img>
         </div>
       </div>
       <div className="card">
